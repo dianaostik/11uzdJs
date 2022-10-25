@@ -102,7 +102,29 @@ console.log("Dvejetu = " + count2);
 //6uzd
 
 console.log("6 Uzduotis");
-let first =  (-10) + Math.round(Math.random() * 10 - (-10));
-let second = (-10) + Math.round(Math.random() * 10 + 10);
+let first =  (-10) + Math.round(Math.random() * 20);
+let second = (-10) + Math.round(Math.random() * 20);
 let third = (-10) + Math.round(Math.random() * 20);
-console.log("a=" + first + " b=" + second + " c=" + third + " " );
+// console.log("a=" + first + " b=" + second + " c=" + third + " " );
+
+if ((first>0) || (first===0)){
+    console.log("a = {" + first + "}");
+} else {
+    console.log("a = [" + first + "]");    
+}
+
+if ((second>0) || (second===0)){
+    console.log("a = {" + second + "}");
+} else {
+    console.log("a = [" + second + "]");    
+}
+
+if ((third>0) || (third===0)){
+    console.log("a = {" + third + "}");
+} else {
+    console.log("a = [" + third + "]");    
+}
+
+//7uzd
+
+console.log("7 Uzduotis");
