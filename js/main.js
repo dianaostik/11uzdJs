@@ -15,16 +15,16 @@ let numTwo = Math.round(Math.random() * 5);
 console.log("x= " + numOne + " y= " + numTwo);
 let tOne = (numOne > numTwo);
 let tTwo = (numTwo > numOne);
-let rezTwo = numTwo / numOne;
 
 if (tOne) {
     let rezOne = numOne / numTwo;
     console.log("Rezultatas = " + (Math.round(rezOne * 100) / 100));
 } 
+
 if (tTwo) {
+    let rezTwo = numTwo / numOne;
     console.log("Rezultatas = " + (Math.round(rezTwo * 100) / 100));
 } 
-
 
 
 //--------- 3 uzd
@@ -105,7 +105,6 @@ console.log("--------- 6 Uzduotis--------- ");
 let first =  (-10) + Math.round(Math.random() * 20);
 let second = (-10) + Math.round(Math.random() * 20);
 let third = (-10) + Math.round(Math.random() * 20);
-// console.log("a=" + first + " b=" + second + " c=" + third + " " );
 
 if ((first>0) || (first===0)){
     console.log("a = {" + first + "}");
@@ -155,3 +154,15 @@ if (vienetai < 1000){
 //--------- 8uzd
 
 console.log("--------- 8 Uzduotis--------- ");
+let kint1 = Math.round(Math.random() * 100);
+let kint2 = Math.round(Math.random() * 100);
+let kint3 = Math.round(Math.random() * 100);
+console.log("a=" + kint1 + " b=" + kint2 + " c=" + kint3 + " " );
+
+let vidurk = Math.round((kint1 + kint2 + kint3) / 3);
+
+if (vidurk > 10 && vidurk < 90){
+    console.log("Tinkamas vidurkis = " + vidurk);
+} else {
+    console.log("Netinkamas vidurkis...");
+}
