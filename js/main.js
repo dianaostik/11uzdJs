@@ -1,15 +1,15 @@
-//1 uzd
+//--------- 1 uzd
 
-console.log("1 Uzduotis")
+console.log("--------- 1 Uzduotis--------- ")
 let Vardas = "Diana";
 let Pavarde = "Ostik";
 let Gimm = 1988;
 let Metai = 2022;
 console.log('"Aš esu ' + Vardas + ' ' + Pavarde + '. Man yra ' + (Metai - Gimm) + ' metai."');
 
-//2 uzd
+//--------- 2 uzd
 
-console.log("2 Uzduotis")
+console.log("--------- 2 Uzduotis--------- ")
 let numOne = Math.round(Math.random() * 5);
 let numTwo = Math.round(Math.random() * 5);
 console.log("x= " + numOne + " y= " + numTwo);
@@ -27,9 +27,9 @@ if (tTwo) {
 
 
 
-//3 uzd
+//--------- 3 uzd
 
-console.log("3 Uzduotis");
+console.log("--------- 3 Uzduotis--------- ");
 let aa = Math.round(Math.random() * 25);
 let bb = Math.round(Math.random() * 25);
 let cc = Math.round(Math.random() * 25);
@@ -51,9 +51,9 @@ if((cc < aa && aa < bb) || (cc > aa && aa > bb)){
     console.log("Reiksme = " + aa);
 }
 
-//4uzd
+//--------- 4uzd
 
-console.log("4 Uzduotis");
+console.log("--------- 4 Uzduotis--------- ");
 let a = 1 + Math.round(Math.random() * 9);
 let b = 1 + Math.round(Math.random() * 9);
 let c = 1 + Math.round(Math.random() * 9);
@@ -66,9 +66,9 @@ if (((a+b)>c) && ((a+c)>b) && ((b+c)>a)){
 }
 
 
-//5uzd
+//--------- 5uzd
 
-console.log("5 Uzduotis");
+console.log("--------- 5 Uzduotis--------- ");
 let d = Math.round(Math.random() * 2);
 let e = Math.round(Math.random() * 2);
 let f = Math.round(Math.random() * 2);
@@ -99,9 +99,9 @@ if ( g===2 ){count2++;}
 
 console.log("Dvejetu = " + count2);
 
-//6uzd
+//--------- 6uzd
 
-console.log("6 Uzduotis");
+console.log("--------- 6 Uzduotis--------- ");
 let first =  (-10) + Math.round(Math.random() * 20);
 let second = (-10) + Math.round(Math.random() * 20);
 let third = (-10) + Math.round(Math.random() * 20);
@@ -125,6 +125,11 @@ if ((third>0) || (third===0)){
     console.log("a = [" + third + "]");    
 }
 
-//7uzd
+//--------- 7uzd
 
-console.log("7 Uzduotis");
+console.log("--------- 7 Uzduotis--------- ");
+let vienetai =  5 + Math.round(Math.random() * 3000);
+let kaina = 1;
+console.log (vienetai);
+
+if (vienetai >1000 && )
