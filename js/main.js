@@ -129,7 +129,29 @@ if ((third>0) || (third===0)){
 
 console.log("--------- 7 Uzduotis--------- ");
 let vienetai =  5 + Math.round(Math.random() * 3000);
-let kaina = 1;
-console.log (vienetai);
+console.log (vienetai + " vnt.");
 
-if (vienetai >1000 && )
+if (vienetai > 1000 && vienetai < 2000 || vienetai === 1000){
+    let kaina = (((vienetai - (vienetai /100 * 3))) / vienetai);
+    let newKaina = (vienetai - (vienetai /100 * 3));
+    console.log("Suma = " + (Math.round(newKaina * 100) / 100) + " eur");
+    console.log("Vnt.kaina = " + (Math.round(kaina * 100) / 100) + " eur");
+    
+} 
+
+if (vienetai > 2000 && vienetai < 3000 || vienetai === 2000){
+    let kaina = (((vienetai - (vienetai /100 * 4))) / vienetai);
+    let newKaina = (vienetai - (vienetai /100 * 4));
+    console.log("Suma = " + (Math.round(newKaina * 100) / 100) + " eur");
+    console.log("Vnt.kaina = " + (Math.round(kaina * 100) / 100) + " eur");
+}
+
+if (vienetai < 1000){
+    console.log("Suma = " + vienetai + " eur");
+    console.log("Vnt.kaina = " + 1 + " eur");
+
+}
+
+//--------- 8uzd
+
+console.log("--------- 8 Uzduotis--------- ");
