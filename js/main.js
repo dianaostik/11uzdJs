@@ -54,9 +54,9 @@ if((cc < aa && aa < bb) || (cc > aa && aa > bb)){
 //4uzd
 
 console.log("4 Uzduotis");
-let a = Math.round(Math.random() * 10);
-let b = Math.round(Math.random() * 10);
-let c = Math.round(Math.random() * 10);
+let a = 1 + Math.round(Math.random() * 9);
+let b = 1 + Math.round(Math.random() * 9);
+let c = 1 + Math.round(Math.random() * 9);
 console.log("a=" + a + " b=" + b + " c=" + c + " " );
 
 if (((a+b)>c) && ((a+c)>b) && ((b+c)>a)){
@@ -102,3 +102,7 @@ console.log("Dvejetu = " + count2);
 //6uzd
 
 console.log("6 Uzduotis");
+let first =  (-10) + Math.round(Math.random() * 10 - (-10));
+let second = (-10) + Math.round(Math.random() * 10 + 10);
+let third = (-10) + Math.round(Math.random() * 20);
+console.log("a=" + first + " b=" + second + " c=" + third + " " );
